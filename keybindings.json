@@ -1,0 +1,68 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  // move focus from group to group
+  {
+    "key": "ctrl+b h",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b j",
+    "command": "workbench.action.focusBelowGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b k",
+    "command": "workbench.action.focusAboveGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b l",
+    "command": "workbench.action.focusRightGroup",
+    "when": "editorTextFocus"
+  },
+  // move an editor to a different group
+  {
+    "key": "ctrl+b shift+h",
+    "command": "workbench.action.moveEditorToLeftGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b shift+j",
+    "command": "workbench.action.moveEditorToBelowGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b shift+k",
+    "command": "workbench.action.moveEditorToAboveGroup",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b shift+l",
+    "command": "workbench.action.moveEditorToRightGroup",
+    "when": "editorTextFocus"
+  },
+  // spawn new groups
+  {
+    "key": "ctrl+b cmd+h",
+    "command": "multiCommand.newGroupLeft",
+  },
+  {
+    "key": "ctrl+b cmd+j",
+    "command": "multiCommand.newGroupBelow",
+  },
+  {
+    "key": "ctrl+b cmd+k",
+    "command": "multiCommand.newGroupAbove",
+  },
+  {
+    "key": "ctrl+b cmd+l",
+    "command": "multiCommand.newGroupRight",
+  },
+  {
+    // stops vscode from homing to beginning of file when Vim mode is turned on
+    "key": "ctrl+b",
+    "command": "-cursorLeft",
+    "when": "textInputFocus"
+  }
+]

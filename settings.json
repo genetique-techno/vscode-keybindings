@@ -1,0 +1,48 @@
+{
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "editor.scrollBeyondLastLine": true,
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.feedback.visible": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    // custom multi-command sequences, requires multi-command extension
+    "multiCommand.commands": [
+      {
+        "command": "multiCommand.newGroupRight",
+        "sequence": [
+          "workbench.action.newGroupRight",
+          "workbench.action.focusLeftGroup",
+        ]
+      },
+      {
+        "command": "multiCommand.newGroupLeft",
+        "sequence": [
+          "workbench.action.newGroupLeft",
+          "workbench.action.focusRightGroup",
+        ]
+      },
+      {
+        "command": "multiCommand.newGroupAbove",
+        "sequence": [
+          "workbench.action.newGroupAbove",
+          "workbench.action.focusBelowGroup",
+        ]
+      },
+      {
+        "command": "multiCommand.newGroupBelow",
+        "sequence": [
+          "workbench.action.newGroupBelow",
+          "workbench.action.focusAboveGroup",
+        ]
+      }
+    ]
+  }
